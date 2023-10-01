@@ -1,0 +1,294 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    color: #434455;
+
+    background-color: #FFFFFF;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container header-container{
+    display: flex;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.header-logo-color {
+    color: #2E2F42;
+}
+
+.header-list {}
+
+.h-list-item {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.h-list-item:hover,
+.h-list-item:focus {
+    color: #404bbf;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-list {}
+
+.header-address-list-item {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.header-address-list-item:hover,
+.header-address-list-item:focus {
+    color: #404bbf;
+}
+
+
+.head {
+    background-color: #2E2F42;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
+.head-title {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.head-button {
+    font-family: "Roboto", sans-serif;
+
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.head-button:hover {
+    background-color: #404BBF;
+}
+
+.head-button:focus {
+    background-color: #404bbf;
+}
+
+.service {}
+
+.service-title {}
+
+.service-list {}
+
+.service-list-item {}
+
+.service-sec-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.service-paragraph {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.team-list {}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
+
+.team-sec-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-paragraph {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+
+.portfolio {
+    background-color: #F4F4FD;
+
+}
+
+.portfolio-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+.portfolio-list {}
+
+.portfolio-list-item {
+
+    background-color: #FFFFFF;
+
+}
+
+.portfolio-sec-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+
+.portfolio-paragraph {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-link {
+    font-family: "Raleway", sans-serif;
+
+    color: #4d5ae5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.footer-logo-color {
+    color: #f4f4fd;
+}
+
+.footer-paragraph {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
