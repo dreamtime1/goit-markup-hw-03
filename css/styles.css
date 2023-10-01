@@ -52,6 +52,16 @@ a {
 .container-header {
     display: flex;
 }
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    width: 1158px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
 .header-navigation {
     display: flex;
     align-items: center;
