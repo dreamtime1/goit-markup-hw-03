@@ -104,6 +104,7 @@ a {
 .header-address-list {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .header-address-list-item {
@@ -127,6 +128,7 @@ a {
 }
 
 .container {
+
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -326,6 +328,7 @@ border: 1px solid #e7e9fc;
 .name-category{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 
 }
 
