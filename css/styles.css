@@ -49,7 +49,7 @@ a {
     color: var(--NAVY-BLUE, #2e2f42);
 }
 
-.container container-header {
+.container-container-header {
     display: flex;
 }
 
@@ -329,7 +329,6 @@ border: 1px solid #e7e9fc;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-
 }
 
 .portfolio-sec-title {
