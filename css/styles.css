@@ -49,7 +49,7 @@ a {
     color: var(--NAVY-BLUE, #2e2f42);
 }
 
-.container container-header {
+.header-container {
     display: flex;
 }
 
