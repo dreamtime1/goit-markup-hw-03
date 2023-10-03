@@ -71,6 +71,8 @@ a {
     text-align: left;
     text-transform: uppercase;
     margin-right: 76px;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo-color {
